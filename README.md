@@ -5,11 +5,11 @@ This repository serves as a basic starter template for building a point-of-sale 
 ### **Features**
 
 - **Apps Structure:** Organized Django apps for managing different aspects of the billing system.
- - Customers: Handling customer data and profiles.
- - Employees: Managing employee information.
- - Home: Main landing page or dashboard.
- - JWT Auth: Implementation of JWT authentication for secure access.
- - Orders: Handling orders placed by customers.
+   - Customers: Handling customer data and profiles.
+   - Employees: Managing employee information.
+   - Home: Main landing page or dashboard.
+   - JWT Auth: Implementation of JWT authentication for secure access.
+   - Orders: Handling orders placed by customers.
 - **Serializers:** Serializer classes for converting Django model instances to JSON.
 - **Swagger UI:** Integrated Swagger UI for easy API documentation and testing.
 - **Hosted on Vercel:** Deployment on Vercel for convenient hosting and deployment.
