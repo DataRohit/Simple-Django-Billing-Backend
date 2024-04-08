@@ -4,13 +4,16 @@
 		{
 			"src": "backend/wsgi.py",
 			"use": "@vercel/python",
-			"config": { "maxLambdaSize": "15mb", "runtime": "python3.11" }
+			"config": {
+				"maxLambdaSize": "15mb",
+				"runtime": "python3.11"
+			}
 		},
 		{
 			"src": "build.sh",
 			"use": "@vercel/static-build",
 			"config": {
-				"distDir": "staticfiles"
+				"distDir": "staticfiles_build"
 			}
 		}
 	],
