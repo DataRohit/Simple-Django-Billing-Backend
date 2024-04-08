@@ -8,4 +8,4 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings.prod")
 
 
 # Initialize the WSGI application
-application = get_wsgi_application()
+app = application = get_wsgi_application()
