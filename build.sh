@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install pip
+echo "Installing pip..."
+python3 -m ensurepip
+
 # Build the project
 echo "Building the project..."
 python3 -m pip install -r requirements.txt
